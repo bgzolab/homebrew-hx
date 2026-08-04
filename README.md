@@ -2,6 +2,9 @@
 
 Homebrew tap by bgzo.
 
+> [!NOTE]
+> GIVE UP, JUST USE PIPX FOR sqlit
+
 ## Install
 
 ```bash
