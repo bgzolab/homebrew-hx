@@ -6,6 +6,7 @@ Homebrew tap by bgzo.
 
 ```bash
 brew tap bgzo/hx
+brew trust bgzo/hx
 brew install --cask unigetui
 ```
 
