@@ -1,11 +1,16 @@
+# frozen_string_literal: true
+
 class Sqlit < Formula
   include Language::Python::Virtualenv
 
   desc "User-friendly TUI for SQL databases"
   homepage "https://github.com/Maxteabag/sqlit"
+
+  # GIVE UP, JUST USE PIPX FOR sqlit
   url "https://files.pythonhosted.org/packages/c4/2e/2557d94a105201d7b6bb4283d575c7fdb27b78319cd6260cd2726c9088e5/sqlit_tui-1.5.2.tar.gz"
   sha256 "77fdc7e18964d9e007e538296d078883cc3b82f0cc9c35edca96cbaf0cfc2af3"
   license "MIT"
+  deprecate! date: "2026-08-15", because: :unmaintained
 
   depends_on "python@3.14"
 
