@@ -15,6 +15,7 @@ brew trust bgzolab/hx
 |------|-------------|
 | [unigetui](https://github.com/Devolutions/UniGetUI) | Graphical interface for your package managers |
 | [apple-matting](https://github.com/pangxiaobin/apple-matting) | AI image matting tool |
+| [rebased](https://github.com/DetachHead/rebased) | IntelliJ-based IDE for Rust |
 
 ## Documentation
 
@@ -24,3 +25,7 @@ brew trust bgzolab/hx
 
 - [ ] Add more casks
   - [ ] https://github.com/open-ani/animeko
+  - [ ] https://github.com/Predidit/oneAnime
+  - [ ] https://github.com/Predidit/Kazumi
+  - [ ] https://github.com/yonsum/PDMaas (前身 PDManer)
+
