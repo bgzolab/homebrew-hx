@@ -16,6 +16,7 @@ brew trust bgzolab/hx
 | [unigetui](https://github.com/Devolutions/UniGetUI) | Graphical interface for your package managers |
 | [apple-matting](https://github.com/pangxiaobin/apple-matting) | AI image matting tool |
 | [rebased](https://github.com/DetachHead/rebased) | IntelliJ-based IDE for Rust |
+| [youtube-dl-gui](https://github.com/jely2002/youtube-dl-gui) | Cross-platform GUI for downloading videos |
 
 ## Documentation
 
