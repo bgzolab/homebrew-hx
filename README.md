@@ -2,27 +2,24 @@
 
 Homebrew tap by bgzo.
 
-> [!NOTE]
-> GIVE UP, JUST USE PIPX FOR sqlit
-
 ## Install
 
 ```bash
 brew tap bgzo/hx
-brew install sqlit
+brew install --cask unigetui
 ```
 
 Or:
 
 ```bash
-brew install bgzo/hx/sqlit
+brew install --cask bgzo/hx/unigetui
 ```
 
-## Formulae
+## Casks
 
-| Formula | Description |
-|---------|-------------|
-| [sqlit](https://github.com/Maxteabag/sqlit) | User-friendly TUI for SQL databases |
+| Cask | Description |
+|------|-------------|
+| [unigetui](https://github.com/Devolutions/UniGetUI) | Graphical interface for your package managers |
 
 ## Documentation
 
