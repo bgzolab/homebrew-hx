@@ -5,15 +5,8 @@ Homebrew tap by bgzo.
 ## Install
 
 ```bash
-brew tap bgzo/hx
-brew trust bgzo/hx
-brew install --cask unigetui
-```
-
-Or:
-
-```bash
-brew install --cask bgzo/hx/unigetui
+brew tap bgzolab/hx
+brew trust bgzolab/hx
 ```
 
 ## Casks
@@ -21,9 +14,6 @@ brew install --cask bgzo/hx/unigetui
 | Cask | Description |
 |------|-------------|
 | [unigetui](https://github.com/Devolutions/UniGetUI) | Graphical interface for your package managers |
-
-> [!NOTE]
-> The `sqlit` formula is deprecated (`deprecate!`); just use `pipx install sqlit-tui` instead.
 
 ## Documentation
 
