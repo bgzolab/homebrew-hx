@@ -7,12 +7,10 @@ cask "unigetui" do
          intel: "071de32fbcc3485dd99fafd95848286469a1b8fae7b722a521d8e87d1b724fd0"
 
   on_arm do
-    url "https://github.com/Devolutions/UniGetUI/releases/download/v#{version}/UniGetUI.macos-arm64.dmg",
-        verified: "github.com/Devolutions/UniGetUI/releases/download/"
+    url "https://github.com/Devolutions/UniGetUI/releases/download/v#{version}/UniGetUI.macos-arm64.dmg"
   end
   on_intel do
-    url "https://github.com/Devolutions/UniGetUI/releases/download/v#{version}/UniGetUI.macos-x64.dmg",
-        verified: "github.com/Devolutions/UniGetUI/releases/download/"
+    url "https://github.com/Devolutions/UniGetUI/releases/download/v#{version}/UniGetUI.macos-x64.dmg"
   end
 
   name "UniGetUI"

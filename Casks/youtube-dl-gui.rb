@@ -7,12 +7,10 @@ cask "youtube-dl-gui" do
          intel: "1b202fe7123aa8408265c1ba795b734019feacbf179de081f9ca154b02ec37d1"
 
   on_arm do
-    url "https://github.com/jely2002/youtube-dl-gui/releases/download/app-v#{version}/Open.Video.Downloader_#{version}_aarch64.dmg",
-        verified: "github.com/jely2002/youtube-dl-gui/releases/download/"
+    url "https://github.com/jely2002/youtube-dl-gui/releases/download/app-v#{version}/Open.Video.Downloader_#{version}_aarch64.dmg"
   end
   on_intel do
-    url "https://github.com/jely2002/youtube-dl-gui/releases/download/app-v#{version}/Open.Video.Downloader_#{version}_x64.dmg",
-        verified: "github.com/jely2002/youtube-dl-gui/releases/download/"
+    url "https://github.com/jely2002/youtube-dl-gui/releases/download/app-v#{version}/Open.Video.Downloader_#{version}_x64.dmg"
   end
 
   name "Open Video Downloader"

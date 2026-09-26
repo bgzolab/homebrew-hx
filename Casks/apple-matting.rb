@@ -7,12 +7,10 @@ cask "apple-matting" do
          intel: "660ac0b239d5f7d7b5011ad4f11e02e3799f6b3cba4181e6aaf673d556f751b6"
 
   on_arm do
-    url "https://github.com/pangxiaobin/apple-matting/releases/download/v#{version}/apple-matting_#{version}_aarch64.dmg",
-        verified: "github.com/pangxiaobin/apple-matting/releases/download/"
+    url "https://github.com/pangxiaobin/apple-matting/releases/download/v#{version}/apple-matting_#{version}_aarch64.dmg"
   end
   on_intel do
-    url "https://github.com/pangxiaobin/apple-matting/releases/download/v#{version}/apple-matting_#{version}_x64.dmg",
-        verified: "github.com/pangxiaobin/apple-matting/releases/download/"
+    url "https://github.com/pangxiaobin/apple-matting/releases/download/v#{version}/apple-matting_#{version}_x64.dmg"
   end
 
   name "Apple Matting"

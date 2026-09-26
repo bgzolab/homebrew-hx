@@ -7,12 +7,10 @@ cask "rebased" do
          intel: "97792938463b3270d2fecacd87280d37cfa97ce4e931aaf5fe74b9264f60afdf"
 
   on_arm do
-    url "https://github.com/DetachHead/rebased/releases/download/#{version}/rebased-aarch64.dmg",
-        verified: "github.com/DetachHead/rebased/releases/download/"
+    url "https://github.com/DetachHead/rebased/releases/download/#{version}/rebased-aarch64.dmg"
   end
   on_intel do
-    url "https://github.com/DetachHead/rebased/releases/download/#{version}/rebased.dmg",
-        verified: "github.com/DetachHead/rebased/releases/download/"
+    url "https://github.com/DetachHead/rebased/releases/download/#{version}/rebased.dmg"
   end
 
   name "Rebased"
